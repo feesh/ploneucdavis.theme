@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<import-steps>
+  <import-step id="ucdavis.theme.various"
+               version="20110518-01"
+               handler="ucdavis.theme.setuphandlers.setupVarious"
+               title="UC Davis Theme: miscellaneous import steps">
+    <dependency step="skins" />
+    Various import steps that are not handled by GS import/export
+    handlers.
+  </import-step>
+</import-steps>

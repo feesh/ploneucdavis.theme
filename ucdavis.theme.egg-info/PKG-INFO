@@ -1,0 +1,27 @@
+Metadata-Version: 1.0
+Name: ucdavis.theme
+Version: 1.0dev
+Summary: Theme for Plone at UC Davis
+Home-page: http://plone.ucdavis.edu
+Author: UC Davis CA&ES
+Author-email: pgang@ucdavis.edu
+License: GPL
+Description: Introduction
+        ============
+        
+        
+        
+        Changelog
+        =========
+        
+        1.0 - Unreleased
+        ----------------
+        
+        * Initial release
+        
+        
+Keywords: ucdavis plone
+Platform: UNKNOWN
+Classifier: Framework :: Plone
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

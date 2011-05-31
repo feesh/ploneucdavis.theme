@@ -4,7 +4,7 @@
 */
 
 body {
-    background-color: #e8ddcb;
+    background-color: #333;
     color: #ffffff;
     font-family: 'MisoRegular', "Trebuchet MS", Tahoma, Arial, sans-serif;
 }

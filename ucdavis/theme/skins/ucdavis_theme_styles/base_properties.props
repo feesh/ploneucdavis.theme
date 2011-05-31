@@ -2,7 +2,7 @@ title:string=UC Davis Theme's color, font, logo and border defaults
 
 plone_skin:string=UC Davis Theme
 
-logoName:string=logo.jpg
+logoName:string=logo.png
 
 fontFamily:string="Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif
 fontBaseSize:string=69%

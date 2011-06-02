@@ -4,9 +4,9 @@
 */
 
 body {
-    background-color: #eaeaea;
+    background: #103162 url(bg.jpg) fixed;
     color: #ffffff;
-    font-family: 'MisoRegular', "Trebuchet MS", Tahoma, Arial, sans-serif;
+    font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
 }
 
 #visual-portal-wrapper {
@@ -14,6 +14,8 @@ body {
     margin: 0 auto;
     /* background: transparent url('content_bg.png') repeat-y 300px top; */
 }
+
+#portal-header {background: url(bg-header.jpg) no-repeat; height: 100px;}
 
 
 

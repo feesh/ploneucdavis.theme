@@ -4,8 +4,8 @@
 */
 
 body {
-    background: #103162 url('bg.jpg') fixed no-repeat;
-    color: #ffffff;
+    background: #103162;
+    color: #333;
     font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
 }
 

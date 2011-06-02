@@ -3,6 +3,9 @@
   <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
 */
 
+.searchSection {display: none;}
+
+
 body {
     background: #103162;
     color: #333;
@@ -12,6 +15,7 @@ body {
 #visual-portal-wrapper {
     width: 960px;
     margin: 0 auto;
+    box-shadow: 0px 0px 25px rgba(0,0,0,.6);
     /* background: transparent url('content_bg.png') repeat-y 300px top; */
 }
 

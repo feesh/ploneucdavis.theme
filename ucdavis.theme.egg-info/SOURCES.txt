@@ -35,6 +35,11 @@ ucdavis/theme/profiles/default/skins.xml
 ucdavis/theme/profiles/default/ucdavis.theme_various.txt
 ucdavis/theme/profiles/default/viewlets.xml
 ucdavis/theme/skins/ucdavis_theme_custom_images/CONTENT.txt
+ucdavis/theme/skins/ucdavis_theme_custom_images/bg-header.jpg
+ucdavis/theme/skins/ucdavis_theme_custom_images/bg.jpg
+ucdavis/theme/skins/ucdavis_theme_custom_images/logo.png
 ucdavis/theme/skins/ucdavis_theme_custom_templates/CONTENT.txt
 ucdavis/theme/skins/ucdavis_theme_styles/CONTENT.txt
 ucdavis/theme/skins/ucdavis_theme_styles/base_properties.props
+ucdavis/theme/skins/ucdavis_theme_styles/ploneCustom.css
+ucdavis/theme/skins/ucdavis_theme_styles/ploneCustom.css.dtml

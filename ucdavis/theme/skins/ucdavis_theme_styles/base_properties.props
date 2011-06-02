@@ -6,7 +6,7 @@ logoName:string=logo.png
 
 fontFamily:string="Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif
 fontBaseSize:string=69%
-fontColor:string=Pink
+fontColor:string=#666
 fontSmallSize:string=85%
 
 backgroundColor:string=White

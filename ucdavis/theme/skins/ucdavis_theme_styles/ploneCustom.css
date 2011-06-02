@@ -16,7 +16,7 @@ body {
 }
 
 #portal-top {background: url('bg-header.jpg') no-repeat; height: 100px;}
-
+#portal-columns {background: #fff;}
 
 
 /* </dtml-with> */

@@ -9,7 +9,7 @@
 body {
     background: #103162;
     color: #333;
-    font-family: "Trebuchet MS", Tahoma, Arial, sans-serif;
+    font-family: "Trebuchet MS", Helvetica, Tahoma, Arial, sans-serif;
 }
 
 #visual-portal-wrapper {
@@ -19,7 +19,15 @@ body {
     /* background: transparent url('content_bg.png') repeat-y 300px top; */
 }
 
-#portal-top {background: url('bg-header.jpg') no-repeat; height: 100px;}
+#portal-top {background: url('bg-header.jpg') #fff no-repeat; height: 135px;}
+#portal-logo img {margin-bottom: 3em;}
+#portal-globalnav {background: #000; height: 30px; display: block; font-family: 'Brawler', Helvetica, Arial, sans-serif; border-bottom: 5px solid #1595d3; padding: 0px;}
+#portal-globalnav li {height: 22px; margin-top: 8px; display: inline-block;}
+#portal-globalnav li a, #portal-globalnav li.selected a {background: transparent; border: 0px none; text-transform: none; font-size: 1.5em; margin: 0; padding: 10px 1.33em 5px; color: #0e74a5;}
+#portal-globalnav li a:hover, #portal-globalnav li.selected a:hover {background: #1595d3; color: #fff;}
+#portal-globalnav li.selected a {background: #1595d3; color: #fff;}
+
+
 #portal-columns {background: #fff;}
 
 

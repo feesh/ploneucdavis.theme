@@ -27,6 +27,9 @@ ucdavis/theme/browser/viewlets.py
 ucdavis/theme/browser/images/README.txt
 ucdavis/theme/browser/stylesheets/README.txt
 ucdavis/theme/browser/stylesheets/main.css
+ucdavis/theme/browser/template-overrides/README.txt
+ucdavis/theme/browser/template-overrides/plone.app.layout.viewlets.searchbox.pt
+ucdavis/theme/profiles/default/actions.xml
 ucdavis/theme/profiles/default/cssregistry.xml
 ucdavis/theme/profiles/default/import_steps.xml
 ucdavis/theme/profiles/default/jsregistry.xml
@@ -38,8 +41,8 @@ ucdavis/theme/skins/ucdavis_theme_custom_images/CONTENT.txt
 ucdavis/theme/skins/ucdavis_theme_custom_images/bg-header.jpg
 ucdavis/theme/skins/ucdavis_theme_custom_images/bg.jpg
 ucdavis/theme/skins/ucdavis_theme_custom_images/logo.png
+ucdavis/theme/skins/ucdavis_theme_custom_images/search.jpg
 ucdavis/theme/skins/ucdavis_theme_custom_templates/CONTENT.txt
 ucdavis/theme/skins/ucdavis_theme_styles/CONTENT.txt
 ucdavis/theme/skins/ucdavis_theme_styles/base_properties.props
 ucdavis/theme/skins/ucdavis_theme_styles/ploneCustom.css
-ucdavis/theme/skins/ucdavis_theme_styles/ploneCustom.css.dtml

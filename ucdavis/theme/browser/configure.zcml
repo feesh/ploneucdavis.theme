@@ -27,4 +27,9 @@
       layer=".interfaces.IThemeSpecific"
       />
 
+  <include package="z3c.jbot" file="meta.zcml" />
+  <browser:templateOverrides
+      layer=".interfaces.IThemeSpecific"
+      directory="template-overrides" />
+
 </configure>

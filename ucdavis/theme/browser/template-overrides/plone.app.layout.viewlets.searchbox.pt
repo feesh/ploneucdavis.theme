@@ -15,7 +15,7 @@
 
         <input name="SearchableText"
                type="text"
-               size="18"
+               size="15"
                value=""
                title="Search Site"
                accesskey="4"
@@ -26,7 +26,7 @@
 
         <input class="searchButton"
                type="submit"
-               value="Search"
+               value=""
                i18n:attributes="value label_search;" />
 
         <div class="searchSection">

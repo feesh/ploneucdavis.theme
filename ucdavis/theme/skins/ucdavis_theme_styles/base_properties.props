@@ -15,8 +15,8 @@ linkColor:string=#436976
 linkActiveColor:string=Red
 linkVisitedColor:string=Purple
 
-borderWidth:string=1px
-borderStyle:string=solid
+borderWidth:string=0px
+borderStyle:string=none
 borderStyleAnnotations:string=dashed
 
 globalBorderColor:string=#8cacbb
@@ -33,7 +33,7 @@ inputFontColor:string=Black
 
 textTransform:string=lowercase
 
-evenRowBackgroundColor:string=#eef3f5 
+evenRowBackgroundColor:string=#c1e3f4 
 oddRowBackgroundColor:string=transparent
 
 notifyBorderColor:string=#ffa500

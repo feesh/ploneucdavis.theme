@@ -9,8 +9,51 @@
 body {
     background: #103162;
     color: #333;
-    font-family: Helvetica, "Trebuchet MS", Tahoma, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
+
+a {cursor: pointer;}
+a:link, a:visited {color: #1595D3; font-weight: bold;}
+a:hover, a:active {color: #a1731f;}
+
+h1, h2, h3, h4, h5, h6 {font-weight: normal; border-bottom: 0px;}
+h1 {font-size: 2.5em;}
+h2 {font-size: 2em;}
+h3 {font-size: 1.75em;}
+
+.documentContent p, .documentContent li, .documentContent td, 
+.documentContent dt, .documentContent dd, #portal-footer, #portal-column-two, 
+blockquote, label {font-size: 1.1em; line-height: 1.75em;}
+.documentContent li p, .documentContent li li, .documentContent li blockquote, .documentContent li td,
+.documentContent td p, .documentContent td li, .documentContent td blockquote, .documentContent td td,
+.documentContent td dd.image-caption, .documentContent #portlets-below p,
+.documentContent #portlets-below li, .documentContent blockquote li,
+blockquote blockquote, .documentContent blockquote li,
+.documentContent blockquote p, .documentContent blockquote td,
+h1 code, h2 code, h3 code {font-size: 1em;}
+label {line-height: 1em;}
+input[type=radio] {margin-left: 1em;}
+code, tt, pre {background: #c1e3f4;}
+
+table.listing th, .stx table th {background: #1595D3; color: #fff; font-size: 1.25em; padding: 1em .5em .5em;}
+
+.field.error div {color: #cc0000; font-weight: bold;}
+.field.error div.formHelp {color: #76797C; font-weight: normal;}
+
+
+/* --- form elements --- */
+
+.standalone, .documentEditable * .standalone,
+.destructive, .documentEditable * .destructive {background: #1595D3; -moz-border-radius: 6px; -webkit-border-radius: 6px; color: #fff; font-weight: bold; padding: 4px 6px 2px; border-color: transparent; letter-spacing: .5px; margin: 0 0 .5em 0; text-transform: none;}
+.destructive, .documentEditable * .destructive {background: #1595D3;}
+.context, .formControls .actionButtons .button, 
+.documentEditable * .context,
+input[type=submit], input[type=button] {background: #1595D3; -moz-border-radius: 6px; -webkit-border-radius: 6px; color: #fff; font-weight: bold; padding: 4px 6px 2px; border-color: transparent; letter-spacing: .5px; margin: 0 0 .5em 0;  text-transform: none;}
+input[type=submit], input[type=button] {border: 0px none; font-size: .9em;}
+
+
+
+/* ---------- =layout ------------- */
 
 #visual-portal-wrapper {
     width: 960px;
@@ -23,16 +66,16 @@ body {
 #portal-logo img {margin-bottom: 3em;}
 #portal-siteactions {position: absolute; top: 0px; left: 0px;}
 #portal-searchbox {margin: 9.5em 0 0;}
-#searchGadget {background: #333; border: 0px none; padding: 1px 8px; border-radius: 5px;}
+#searchGadget {background: #333; color: #aaa; border: 0px none; padding: 1px 8px; border-radius: 5px;}
 input.searchButton {border: 0px none; background: url('search.jpg') no-repeat transparent center 0px; width: 16px; overflow: hidden; padding: 1px 1px 1px 20px;}
 
-#portal-globalnav {background: #000; height: 30px; display: block; font-family: 'Brawler', Helvetica, Arial, sans-serif; border-bottom: 5px solid #1595d3; padding: 0px;}
+#portal-globalnav {background: #000; height: 30px; display: block; font-family: Helvetica, Arial, sans-serif; border-bottom: 5px solid #1595d3; padding: 0px;}
 #portal-globalnav li {height: 22px; margin-top: 8px; display: inline-block;}
-#portal-globalnav li a, #portal-globalnav li.selected a {background: transparent; border: 0px none; text-transform: none; font-size: 1.5em; margin: 0; padding: 10px 1.33em 5px; color: #0e74a5;}
+#portal-globalnav li a, #portal-globalnav li.selected a {background: transparent; border: 0px none; text-transform: none; font-size: 1.5em; margin: 0; padding: 10px 1.33em 5px; color: #0e74a5; font-weight: normal;}
 #portal-globalnav li a:hover, #portal-globalnav li.selected a:hover {background: #1595d3; color: #fff;}
 #portal-globalnav li.selected a {background: #1595d3; color: #fff;}
 
-
+#portal-personaltools {background: transparent;}
 #portal-columns {background: #fff;}
 
 

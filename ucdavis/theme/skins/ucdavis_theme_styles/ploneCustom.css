@@ -62,7 +62,7 @@ input[type=submit], input[type=button] {border: 0px none; font-size: .9em;}
     /* background: transparent url('content_bg.png') repeat-y 300px top; */
 }
 
-#portal-top {background: url('bg-header.jpg') #fff no-repeat; height: 135px;}
+#portal-top {background: url('bg-header.jpg') #fff no-repeat;} /* height: 135px;} */
 #portal-logo img {margin-bottom: 3em;}
 #portal-siteactions {position: absolute; top: 0px; left: 0px;}
 #portal-searchbox {margin: 9.5em 0 0;}
@@ -76,6 +76,7 @@ input.searchButton {border: 0px none; background: url('search.jpg') no-repeat tr
 #portal-globalnav li.selected a {background: #1595d3; color: #fff;}
 
 #portal-personaltools {background: transparent;}
+#portal-breadcrumbs {padding: .5em 2em;}
 #portal-columns {background: #fff;}
 
 

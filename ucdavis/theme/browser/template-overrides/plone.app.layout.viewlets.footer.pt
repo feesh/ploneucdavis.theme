@@ -1,0 +1,12 @@
+<div id="portal-footer" metal:define-macro="portal_footer" i18n:domain="plone">
+<p>
+    <span i18n:translate="description_copyright" tal:omit-tag="">
+    <strong>All contents <acronym title="Copyright" i18n:name="copyright" i18n:attributes="title title_copyright;">&copy;</acronym>
+    2000-<span i18n:name="current_year"
+               tal:omit-tag=""
+               tal:define="now modules/DateTime/DateTime"
+               tal:content="now/year" /></strong>
+    by The Regents of the University of California
+    </span>
+</p>
+</div>

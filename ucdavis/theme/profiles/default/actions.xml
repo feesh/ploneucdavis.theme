@@ -5,6 +5,34 @@
  <action-provider name="portal_types"/>
  <action-provider name="portal_actions"/>
 
+ <object name="document_actions" meta_type="CMF Action Category">
+  <property name="title"></property>
+
+  <object name="sendto" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">Send this</property>
+   <property name="description" i18n:translate=""></property>
+   <property name="url_expr">string:$object_url/sendto_form</property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="Allow sendto"/>
+   </property>
+   <property name="visible">False</property>
+  </object>
+  <object name="print" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">Print this</property>
+   <property name="description" i18n:translate=""></property>
+   <property name="url_expr">string:javascript:this.print();</property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">False</property>
+  </object>
+
+ </object>
+
  <object name="site_actions" meta_type="CMF Action Category">
   <property name="title"></property>
   <object name="sitemap" meta_type="CMF Action" i18n:domain="plone">

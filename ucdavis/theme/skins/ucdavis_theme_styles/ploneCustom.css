@@ -13,7 +13,7 @@ body {
 }
 
 a {cursor: pointer;}
-a:link, a:visited {color: #1595D3; font-weight: bold;}
+a:link, a:visited {color: #1595D3 !important; font-weight: bold;}
 a:hover, a:active {color: #a1731f;}
 
 h1, h2, h3, h4, h5, h6 {font-weight: normal; border-bottom: 0px;}
@@ -75,9 +75,13 @@ input.searchButton {border: 0px none; background: url('search.jpg') no-repeat tr
 #portal-globalnav li a:hover, #portal-globalnav li.selected a:hover {background: #1595d3; color: #fff;}
 #portal-globalnav li.selected a {background: #1595d3; color: #fff;}
 
-#portal-personaltools {background: transparent;}
-#portal-breadcrumbs {padding: .5em 2em;}
+#portal-personaltools {background: transparent; border: 0px none;}
+#portal-breadcrumbs {padding: .5em 2em; border: 0px none;}
 #portal-columns {background: #fff;}
+
+#portal-footer {margin-top: 0px; background: #1595d3; color: #fff;}
+#portal-footer a:link, #portal-footer a:visited {color: #103162 !important;}
+#portal-colophon {margin-bottom: 0px;}
 
 
 /* </dtml-with> */

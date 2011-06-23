@@ -14,7 +14,7 @@ body {
 
 a {cursor: pointer;}
 a:link, a:visited {color: #1595D3 !important; font-weight: bold;}
-a:hover, a:active {color: #a1731f;}
+a:hover, a:active {color: #a1731f !important;}
 
 h1, h2, h3, h4, h5, h6 {font-weight: normal; border-bottom: 0px;}
 h1 {font-size: 2.5em;}
@@ -71,9 +71,9 @@ input.searchButton {border: 0px none; background: url('search.jpg') no-repeat tr
 
 #portal-globalnav {background: #000; height: 30px; display: block; font-family: Helvetica, Arial, sans-serif; border-bottom: 5px solid #1595d3; padding: 0px;}
 #portal-globalnav li {height: 22px; margin-top: 8px; display: inline-block;}
-#portal-globalnav li a, #portal-globalnav li.selected a {background: transparent; border: 0px none; text-transform: none; font-size: 1.5em; margin: 0; padding: 10px 1.33em 5px; color: #0e74a5; font-weight: normal;}
-#portal-globalnav li a:hover, #portal-globalnav li.selected a:hover {background: #1595d3; color: #fff;}
-#portal-globalnav li.selected a {background: #1595d3; color: #fff;}
+#portal-globalnav li a, #portal-globalnav li.selected a {background: transparent; border: 0px none; text-transform: none; font-size: 1.5em; margin: 0; padding: 10px 1.33em 5px; color: #0e74a5 !important; font-weight: normal;}
+#portal-globalnav li a:hover, #portal-globalnav li.selected a:hover {background: #1595d3; color: #fff !important;}
+#portal-globalnav li.selected a {background: #1595d3; color: #fff !important;}
 
 #portal-personaltools {background: transparent; border: 0px none;}
 #portal-breadcrumbs {padding: .5em 2em; border: 0px none;}

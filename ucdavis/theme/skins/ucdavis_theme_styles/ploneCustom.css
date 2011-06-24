@@ -84,4 +84,15 @@ input.searchButton {border: 0px none; background: url('search.jpg') no-repeat tr
 #portal-colophon {margin-bottom: 0px;}
 
 
+
+/* -------------- =portlets -------------- */
+
+.portletHeader {background: #1595d3; color: #fff; font-size: 1.5em; padding: 1em 0.5em 0; font-weight: normal; text-transform: none;}
+.portletHeader a:link, .portletHeader a:visited {color: #fff !important;}
+.portletHeader a:hover, .portletHeader a:active {color: #103162 !important;}
+
+.portletFooter {background: #ccc;}
+
+
+
 /* </dtml-with> */

@@ -100,4 +100,14 @@ input.searchButton {border: 0 none; background: url('search.jpg') no-repeat tran
 
 
 
+/* =login */
+
+#footer-portlets .FooterPortletA {width: 300px; padding: 0 20px; text-align: center; margin: 0 auto;}
+#footer-portlets .FooterPortletA .portletHeader {display: none;}
+
+.template-login_form #login_form {display: none;}
+.template-login_form .FooterPortletB input {font-size: 3em; padding: 15px;}
+
+
+
 /* </dtml-with> */
